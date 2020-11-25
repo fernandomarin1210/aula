@@ -47,7 +47,6 @@ class _ContatoPageState extends State<ContatoPage> {
                   image: DecorationImage(
                     image: _editaContato.imagem != null ?
                       FileImage(File(_editaContato.imagem)) :  // imagem carregada no banco
-                      //AssetImage("images/" + _editaContato.imagem) :
                       AssetImage("images/pessoa_sem_foto.jpg"),
                   ),
                 ),

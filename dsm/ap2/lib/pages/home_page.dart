@@ -74,7 +74,6 @@ class _HomePageState extends State<HomePage> {
                   image: DecorationImage(
                     image: contatos[index].imagem != null ?
                       FileImage(File(contatos[index].imagem)) :
-                      //AssetImage("images/" + contatos[index].imagem) :
                       AssetImage("images/pessoa_sem_foto.jpg"),
                   ),
                 ),
