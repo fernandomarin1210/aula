@@ -1,0 +1,16 @@
+body{
+	margin: auto 0px;
+}
+
+header{
+	
+	text-align: center;
+	vertical-align: middle;
+	min-height: 200px;
+}
+
+footer{
+	
+	text-align: center;
+	min-height: 100px;
+}
